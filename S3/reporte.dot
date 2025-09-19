@@ -1,0 +1,13 @@
+graph Transparency {
+  layout=neato
+  start=11  // empiric value to set orientation
+  bgcolor="#0000ff11"
+  node [shape=circle width=2.22 label="" style=filled]
+  5 [color="#00ff88"]
+  6 [color="#00ee88"]
+  1 [color="#ff0000"]
+  2 [color="#eeee00"]
+  3 [color="#00ff00"]
+  4 [color="#00eeee"]
+  1 -- 2 -- 3 -- 4 -- 5 -- 6 -- 1
+}
